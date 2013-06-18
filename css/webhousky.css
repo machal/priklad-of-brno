@@ -3513,6 +3513,13 @@ input[type="submit"].btn.btn-mini {
   max-width: 980px;
   margin: 0 auto;
 }
+@font-face {
+  font-family: 'museo_slab500';
+  src: url('../fonts/museoslab_500_czech/Museo_Slab_500_2-webfont.eot');
+  src: url('../fonts/museoslab_500_czech/Museo_Slab_500_2-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/museoslab_500_czech/Museo_Slab_500_2-webfont.woff') format('woff'), url('../fonts/museoslab_500_czech/Museo_Slab_500_2-webfont.ttf') format('truetype'), url('../fonts/museoslab_500_czech/Museo_Slab_500_2-webfont.svg#museo_slab500') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
 /* Hlavicka */
 .head {
   clear: both;
@@ -3520,6 +3527,11 @@ input[type="submit"].btn.btn-mini {
   padding: 20px 0 100px;
   text-align: center;
   margin-bottom: 40px;
+}
+.head h1,
+.head h2 {
+  font-family: 'museo_slab500', sans-serif;
+  font-weight: normal;
 }
 @media (max-width: 768px) {
   .head {
@@ -3574,6 +3586,11 @@ input[type="submit"].btn.btn-mini {
 .why {
   clear: both;
   margin-bottom: 40px;
+}
+.why h2 {
+  font-family: 'museo_slab500', sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
 }
 .why ul {
   list-style-type: none;
