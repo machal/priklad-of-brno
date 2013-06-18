@@ -1,0 +1,80 @@
+.container-fluid {
+	max-width: 980px;
+	margin: 0 auto;
+}
+
+/* Hlavicka */
+
+.head {
+	background: #ddd;
+	padding: 20px 0 100px;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+/* Navigace */
+
+.nav {
+	margin-bottom: 60px;
+}
+
+.nav ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}	
+
+.nav li {
+	display: inline-block;	
+}
+
+.nav a {
+	padding: 5px;
+	display: inline-block;	
+}
+
+/* Proc prave Webhousky */
+
+.why {
+	margin-bottom: 40px;
+}
+
+.why ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.why li {
+	list-style-type: none;
+	background: #eee;	
+  float: left;
+	height: 55px;
+  margin: 0 1% 20px 0;
+  padding: 10px 1%;
+  width: 30%; /* Celkem 33% */	
+}
+
+
+/* Seznam produktu */
+
+.product {
+  float: left;
+  margin: 0 2% 20px 0;
+  padding: 20px 2%;
+  width: 27%; /* Celkem 33% */
+  height: 320px;
+  background: #eee;
+}
+
+.product h3,
+.product p {
+  margin: 5px 0;
+  padding: 0;
+}
+
+.product h3 {
+  font-size: 20px;
+  line-height: 1;
+}
+
