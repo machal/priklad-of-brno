@@ -1,6 +1,5 @@
-
 // Import Bootstrapu
-@import "../bootstrap/less/bootstrap.less";
+@import "bootstrap.less";
 @import "../bootstrap/less/responsive.less";
 
 @linkColor: #35c4da;
@@ -57,22 +56,27 @@
 
 .nav {
 	margin-bottom: 60px;
+
+	ul {
+		margin: 0;
+		padding: 0;
+		list-style-type: none;
+	}	
+
+	li {
+		display: inline-block;	
+	}
+
+	a {
+		padding: 5px;
+		display: inline-block;	
+		
+		&:hover {
+			border-bottom: 1px;
+		}		
+	}
 }
 
-.nav ul {
-	margin: 0;
-	padding: 0;
-	list-style-type: none;
-}	
-
-.nav li {
-	display: inline-block;	
-}
-
-.nav a {
-	padding: 5px;
-	display: inline-block;	
-}
 
 /* Proc prave Webhousky */
 
