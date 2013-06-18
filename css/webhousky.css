@@ -69,7 +69,7 @@
 
 .product h3,
 .product p {
-  margin: 5px 0;
+  margin: 10px 0;
   padding: 0;
 }
 
@@ -78,3 +78,26 @@
   line-height: 1;
 }
 
+@media (max-width: 600px) {
+	.product {
+		float: none;
+		width: auto;
+		margin-right: 0;
+		height: auto;
+	}	
+	
+	.product img {
+		margin-left: auto;
+		margin-right: auto;		
+		display: block;
+	}
+}
+
+@media (max-width: 750px) {
+	.why li {
+		float: none;
+		width: auto;
+		margin-right: 0;
+		height: auto;
+	}	
+}
