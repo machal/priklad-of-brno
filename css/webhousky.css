@@ -1,137 +1,117 @@
 .container-fluid {
-	max-width: 980px;
-	margin: 0 auto;
+  max-width: 980px;
+  margin: 0 auto;
 }
-
 /* Hlavicka */
-
 .head {
-	background: #ddd;
-	padding: 20px 0 100px;
-	text-align: center;
-	margin-bottom: 40px;
+  background: #ddd;
+  padding: 20px 0 100px;
+  text-align: center;
+  margin-bottom: 40px;
 }
-
-
 @media (max-width: 768px) {
-	.head {
-		margin-left: -20px;
-		margin-right: -20px;		
-		padding-left: 20px;
-		padding-right: 20px;		
-	}
+  .head {
+    margin-left: -20px;
+    margin-right: -20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
-
 @media (min-width: 550px) and (max-width: 810px) {
-	.head h1 {
-		padding-left: 100px;
-		padding-right: 100px;		
-	}
-	.head h2 {
-		padding-left: 180px;
-		padding-right: 180px;	
-		font-size: 20px;
-		line-height: 1.2;	
-	}	
+  .head h1 {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .head h2 {
+    padding-left: 180px;
+    padding-right: 180px;
+    font-size: 20px;
+    line-height: 1.2;
+  }
 }
-
 @media (max-width: 550px) {
-	.head h1 {
-		font-size: 20px;
-		line-height: 1.2;	
-	}
-	.head h2 {
-		font-size: 15px;
-		line-height: 1.2;	
-	}	
+  .head h1 {
+    font-size: 20px;
+    line-height: 1.2;
+  }
+  .head h2 {
+    font-size: 15px;
+    line-height: 1.2;
+  }
 }
-
 /* Navigace */
-
 .nav {
-	margin-bottom: 60px;
+  margin-bottom: 60px;
 }
-
 .nav ul {
-	margin: 0;
-	padding: 0;
-	list-style-type: none;
-}	
-
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
 .nav li {
-	display: inline-block;	
+  display: inline-block;
 }
-
 .nav a {
-	padding: 5px;
-	display: inline-block;	
+  padding: 5px;
+  display: inline-block;
 }
-
 /* Proc prave Webhousky */
-
 .why {
-	margin-bottom: 40px;
+  margin-bottom: 40px;
 }
-
 .why ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
-
 .why li {
-	list-style-type: none;
-	background: #eee;	
+  list-style-type: none;
+  background: #eee;
   float: left;
-	height: 55px;
+  height: 55px;
   margin: 0 1% 20px 0;
   padding: 10px 1%;
-  width: 30%; /* Celkem 33% */	
+  width: 30%;
+  /* Celkem 33% */
 }
-
-
 /* Seznam produktu */
-
 .product {
   float: left;
   margin: 0 2% 20px 0;
   padding: 20px 2%;
-  width: 27%; /* Celkem 33% */
+  width: 27%;
+  /* Celkem 33% */
+
   height: 320px;
   background: #eee;
 }
-
 .product h3,
 .product p {
   margin: 10px 0;
   padding: 0;
 }
-
 .product h3 {
   font-size: 20px;
   line-height: 1;
 }
-
 @media (max-width: 600px) {
-	.product {
-		float: none;
-		width: auto;
-		margin-right: 0;
-		height: auto;
-	}	
-	
-	.product img {
-		margin-left: auto;
-		margin-right: auto;		
-		display: block;
-	}
+  .product {
+    float: none;
+    width: auto;
+    margin-right: 0;
+    height: auto;
+  }
+  .product img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
 }
-
 @media (max-width: 750px) {
-	.why li {
-		float: none;
-		width: auto;
-		margin-right: 0;
-		height: auto;
-	}	
+  .why li {
+    float: none;
+    width: auto;
+    margin-right: 0;
+    height: auto;
+  }
 }
