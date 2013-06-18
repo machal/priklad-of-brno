@@ -3506,12 +3506,16 @@ input[type="submit"].btn.btn-mini {
     overflow: visible !important;
   }
 }
+.clear {
+  clear: both;
+}
 .container-fluid {
   max-width: 980px;
   margin: 0 auto;
 }
 /* Hlavicka */
 .head {
+  clear: both;
   background: #ddd;
   padding: 20px 0 100px;
   text-align: center;
@@ -3568,6 +3572,7 @@ input[type="submit"].btn.btn-mini {
 }
 /* Proc prave Webhousky */
 .why {
+  clear: both;
   margin-bottom: 40px;
 }
 .why ul {
